@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Legado de la Filosofía - Explorando el pensamiento filosófico a través de los siglas. Un viaje por las ideas que dieron forma a nuestra civilización.">
+  <title>El Legado de la Filosofía | Inicio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar Container -->
+  <header id="navbar-container"></header>
+
+  <main>
+    <!-- ============================================
+         HERO / CAROUSEL
+         ============================================ -->
+    <section id="inicio" class="hero-carousel">
+      <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="img/escujela2.jpeg" class="d-block w-100" alt="Biblioteca antigua con filósofos estudiando">
+            <div class="carousel-caption-custom">
+              <h1>El Legado de la Filosofía</h1>
+              <p>Un viaje a través del pensamiento humano, desde la antigua Grecia hasta la era contemporánea.</p>
+              <a href="#filosofos" class="btn btn-gold">Explorar Filósofos</a>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="img/escuela3.jpeg" class="d-block w-100" alt="Libros antiguos de filosofía">
+            <div class="carousel-caption-custom">
+              <h1>Ideas que Transformaron el Mundo</h1>
+              <p>Descubre cómo el pensamiento filosófico ha moldeado nuestra comprensión del mundo y de nosotros mismos.</p>
+              <a href="#introduccion" class="btn btn-gold">Conocer Más</a>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="img/escuela4.jpeg" class="d-block w-100" alt="Filósofo contemplando al atardecer">
+            <div class="carousel-caption-custom">
+              <h1>La Búsqueda de la Sabiduría</h1>
+              <p>La filosofía no es solo un estudio académico, es una forma de vivir y comprender la existencia.</p>
+              <a href="yo.html#contacto" class="btn btn-gold">Contactar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============================================
+         INTRODUCCIÓN
+         ============================================ -->
+    <section id="introduccion" class="section-padding bg-warm">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 reveal-left">
+            <h2 class="mb-4">Bienvenido al Portal de la Filosofía</h2>
+            <p class="lead">Este proyecto nace de la pasión por comprender las grandes preguntas de la humanidad a través de quienes se atrevieron a formularlas.</p>
+            <p>Desde los jardines de la Escuela de Cirene hasta los escritorios de los grandes pensadores modernos, la filosofía ha sido el faro que guía nuestra búsqueda de sentido, verdad y felicidad.</p>
+            <p>En este portal encontrarás exploraciones detalladas de corrientes filosóficas, biografías de pensadores influyentes y reflexiones sobre cómo la filosofía sigue siendo relevante en nuestro mundo contemporáneo.</p>
+            <a href="#filosofos" class="btn btn-primary-custom mt-3">
+              <i class="fas fa-arrow-down me-2"></i>Descubrir Filósofos
+            </a>
+          </div>
+          <div class="col-lg-6 reveal-right">
+            <div class="position-relative">
+              <img src="img/escuela1.jpeg" alt="Escultura de filósofo pensativo" class="img-fluid rounded-4 shadow-lg">
+              <div class="position-absolute bottom-0 start-0 m-3 bg-white rounded-3 p-3 shadow">
+                <p class="mb-1 fw-bold text-primary">"Conócete a ti mismo"</p>
+                <small class="text-muted">— Inscripción en el Templo de Delfos</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         STATS / ESTADÍSTICAS
+         ============================================ -->
+    <section class="section-padding bg-primary-soft">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card">
+              <span class="stat-number counter" data-target="2500">0</span>
+              <div class="stat-label">Años de Filosofía</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card">
+              <span class="stat-number counter" data-target="127">0</span>
+              <div class="stat-label">Filósofos Documentados</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card">
+              <span class="stat-number counter" data-target="15">0</span>
+              <div class="stat-label">Escuelas Filosóficas</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat-card">
+              <span class="stat-number counter" data-target="50">0</span>
+              <div class="stat-label">Obras Analizadas</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CARDS DE FILÓSOFOS DESTACADOS
+         ============================================ -->
+    <section id="filosofos" class="section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Filósofos Destacados</h2>
+          <p>Explora las vidas y pensamientos de algunos de los filósofos más influyentes de la historia.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card 1: Escuela de Cirene -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="card-philosopher">
+              <div class="card-img-wrapper">
+                <img src="img/arispo.jpeg" alt="Aristipo de Cirene - Fundador de la Escuela de Cirene">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Escuela de Cirene</h3>
+                <p class="card-text">Fundada por Aristipo de Cirene, esta escuela hedonista sostenía que el placer es el bien supremo y el dolor el mayor mal. Una filosofía de vida centrada en el disfrute presente.</p>
+                <div class="card-meta">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>Siglo IV a.C.</span>
+                  <span class="ms-auto">
+                    <a href="cirene.html" class="btn btn-sm btn-outline-gold">Leer más</a>
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 2: Schopenhauer -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="card-philosopher">
+              <div class="card-img-wrapper">
+                <img src="img/shopenhawer.jpeg" alt="Arthur Schopenhauer - Filósofo alemán del pesimismo">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Arthur Schopenhauer</h3>
+                <p class="card-text">El filósofo del pesimismo que revolucionó la metafísica europea. Su obra "El mundo como voluntad y representación" influyó profundamente en el pensamiento moderno.</p>
+                <div class="card-meta">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>1788 - 1860</span>
+                  <span class="ms-auto">
+                    <a href="schopenhauer.html" class="btn btn-sm btn-outline-gold">Leer más</a>
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Card 3: Huxley -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="card-philosopher">
+              <div class="card-img-wrapper">
+                <img src="img/hyxly.jpeg" alt="Aldous Huxley - Escritor y filósofo humanista">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Aldous Huxley</h3>
+                <p class="card-text">Escritor y filósofo humanista cuyas obras exploran las fronteras entre la ciencia, la espiritualidad y la condición humana. Autor de la visionaria "Un Mundo Feliz".</p>
+                <div class="card-meta">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>1894 - 1963</span>
+                  <span class="ms-auto">
+                    <a href="huxley.html" class="btn btn-sm btn-outline-gold">Leer más</a>
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FEATURES / CARACTERÍSTICAS
+         ============================================ -->
+    <section class="section-padding bg-primary-soft">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>¿Qué Encontrarás Aquí?</h2>
+          <p>Un portal completo dedicado al estudio y difusión del pensamiento filosófico.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fas fa-scroll"></i>
+              </div>
+              <h4>Biografías</h4>
+              <p>Vidas detalladas de los pensadores más influyentes de la historia, desde la antigüedad hasta la era moderna.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h4>Corrientes</h4>
+              <p>Exploración de las principales escuelas filosóficas: estoicismo, epicureísmo, existencialismo y más.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fas fa-book-open"></i>
+              </div>
+              <h4>Obras</h4>
+              <p>Análisis de las obras fundamentales que definieron el curso del pensamiento occidental y oriental.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h4>Contexto Social</h4>
+              <p>Reflexiones sobre la relevancia de la filosofía en los desafíos contemporáneos de nuestra sociedad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CALL TO ACTION / MODAL TRIGGER
+         ============================================ -->
+    <section class="section-padding" style="background: linear-gradient(135deg, var(--color-primary) 0%, #0f172a 100%);">
+      <div class="container text-center reveal">
+        <h2 class="text-white mb-4" style="font-size: 2.5rem;">¿Quieres profundizar en el conocimiento filosófico?</h2>
+        <p class="text-white-50 mb-4" style="font-size: 1.1rem; max-width: 600px; margin: 0 auto;
+">Descubre recursos exclusivos, bibliografía recomendada y oportunidades para conectar con otros apasionados por la filosofía.</p>
+        <button type="button" class="btn btn-gold btn-lg" data-bs-toggle="modal" data-bs-target="#modalBienvenida">
+          <i class="fas fa-gift me-2"></i>Ver Recursos Exclusivos
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Container -->
+  <footer id="footer-container"></footer>
+
+  <!--MODAL DE BIENVENIDA / RECURSOS-->
+  <div class="modal fade" id="modalBienvenida" tabindex="-1" aria-labelledby="modalBienvenidaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalBienvenidaLabel">
+            <i class="fas fa-book-reader me-2"></i>Recursos para tu Viaje Filosófico
+          </h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="d-flex align-items-start gap-3">
+                <div class="feature-icon flex-shrink-0" style="width: 50px; height: 50px; font-size: 1.3rem;">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                  <h5>Bibliografía Esencial</h5>
+                  <p class="text-muted small">Una colección curada de las obras fundamentales de la filosofía occidental y oriental, con guías de lectura.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start gap-3">
+                <div class="feature-icon flex-shrink-0" style="width: 50px; height: 50px; font-size: 1.3rem;">
+                  <i class="fas fa-video"></i>
+                </div>
+                <div>
+                  <h5>Conferencias y Documentales</h5>
+                  <p class="text-muted small">Acceso a material audiovisual seleccionado que profundiza en los temas filosóficos más relevantes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start gap-3">
+                <div class="feature-icon flex-shrink-0" style="width: 50px; height: 50px; font-size: 1.3rem;">
+                  <i class="fas fa-comments"></i>
+                </div>
+                <div>
+                  <h5>Foros de Discusión</h5>
+                  <p class="text-muted small">Espacios para el intercambio de ideas y el debate constructivo sobre temas filosóficos actuales.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start gap-3">
+                <div class="feature-icon flex-shrink-0" style="width: 50px; height: 50px; font-size: 1.3rem;">
+                  <i class="fas fa-calendar-check"></i>
+                </div>
+                <div>
+                  <h5>Eventos y Seminarios</h5>
+                  <p class="text-muted small">Información sobre conferencias, seminarios y eventos académicos relacionados con la filosofía.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-4">
+          <div class="text-center">
+            <p class="mb-3">Para acceder a todos estos recursos, suscríbete a nuestro newsletter.</p>
+            <a href="yo.html#contacto" class="btn btn-primary-custom" data-bs-dismiss="modal">
+              <i class="fas fa-envelope me-2"></i>Contactar
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE PRIVACIDAD (Footer) -->
+  <div class="modal fade" id="modalPrivacidad" tabindex="-1" aria-labelledby="modalPrivacidadLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalPrivacidadLabel">
+            <i class="fas fa-shield-alt me-2"></i>Política de Privacidad
+          </h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este sitio web respeta tu privacidad. La información recopilada a través de nuestros formularios se utiliza únicamente para responder a tus consultas y enviarte contenido relevante sobre filosofía.</p>
+          <p>No compartimos tus datos con terceros ni utilizamos cookies de rastreo. Puedes solicitar la eliminación de tus datos en cualquier momento contactándonos.</p>
+          <p class="text-muted small mb-0">Última actualización: Junio 2026.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary-custom" data-bs-dismiss="modal">Entendido</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- App JavaScript -->
+  <script src="js/app.js"></script>
+</body>
+</html>
